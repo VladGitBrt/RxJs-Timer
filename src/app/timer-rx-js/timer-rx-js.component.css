@@ -1,0 +1,27 @@
+span {
+  font-size: 100px;
+  font-weight: bold;
+}
+.timer {
+  width: 900px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  overflow: none;
+  background-color: #fff;
+  border: 1px solid black;
+  transition: 0.2s linear;
+}
+button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.2s linear;
+}
